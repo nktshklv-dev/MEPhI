@@ -1,6 +1,9 @@
 #include <stdio.h>
 
 int main() {
-    printf("Hello World");
-    return 0; 
+    
+   int a = 4;
+   int b = 4;
+    printf("%d", a>b);
+   
 }
