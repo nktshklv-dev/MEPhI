@@ -1,0 +1,8 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/nikita/Developer/MEPhI/MEPhI/samost5/output/s5p1'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _func, symObjAddr: 0x0, symBinAddr: 0x100003E60, symSize: 0x40 }
+  - { offsetInCU: 0x41, offset: 0x41, size: 0x8, addend: 0x0, symName: _func, symObjAddr: 0x0, symBinAddr: 0x100003E60, symSize: 0x40 }
+  - { offsetInCU: 0x65, offset: 0x65, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x40, symBinAddr: 0x100003EA0, symSize: 0xCC }
+...
