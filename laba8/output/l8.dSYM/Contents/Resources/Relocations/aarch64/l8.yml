@@ -1,0 +1,11 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/nikita/Documents/Developer/MEPhI/MEPhI/laba8/output/l8'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _printArray, symObjAddr: 0x0, symBinAddr: 0x100003B50, symSize: 0xE4 }
+  - { offsetInCU: 0x4D, offset: 0x4D, size: 0x8, addend: 0x0, symName: _printArray, symObjAddr: 0x0, symBinAddr: 0x100003B50, symSize: 0xE4 }
+  - { offsetInCU: 0xB7, offset: 0xB7, size: 0x8, addend: 0x0, symName: _decreaseArraySize, symObjAddr: 0xE4, symBinAddr: 0x100003C34, symSize: 0x98 }
+  - { offsetInCU: 0x117, offset: 0x117, size: 0x8, addend: 0x0, symName: _insertElement, symObjAddr: 0x17C, symBinAddr: 0x100003CCC, symSize: 0xFC }
+  - { offsetInCU: 0x181, offset: 0x181, size: 0x8, addend: 0x0, symName: _swapElements, symObjAddr: 0x278, symBinAddr: 0x100003DC8, symSize: 0x50 }
+  - { offsetInCU: 0x1CF, offset: 0x1CF, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x2C8, symBinAddr: 0x100003E18, symSize: 0x13C }
+...

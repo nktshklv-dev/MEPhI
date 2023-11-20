@@ -8,6 +8,11 @@ unsigned long long F(int n, int m, int *recursionCount) {
     }
     (*recursionCount)++;
 
+    if ((n == 1 && m == 1) || n < 0 || m < 0) {
+        printf("0\n");
+        return 0;
+    }
+
     if (n > ULLONG_MAX - m || m > ULLONG_MAX - n) {
         printf("overflow\n"); 
         return 0;
@@ -26,8 +31,8 @@ int main() {
     int n, m;
     int recursionCount = 0;
                             
-   scanf("%d", &n);
-   scanf("%d", &m);
+    scanf("%d", &n);
+    scanf("%d", &m);
 
     unsigned long long result = F(n, m, &recursionCount);
 
@@ -38,4 +43,4 @@ int main() {
     }
 
     return 0;
-} 
+}
