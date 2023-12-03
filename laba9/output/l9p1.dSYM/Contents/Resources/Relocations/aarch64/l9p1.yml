@@ -2,8 +2,8 @@
 triple:          'arm64-apple-darwin'
 binary-path:     '/Users/nikita/Documents/Developer/MEPhI/MEPhI/laba9/output/l9p1'
 relocations:
-  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _printArray, symObjAddr: 0x0, symBinAddr: 0x100003BDC, symSize: 0xE4 }
-  - { offsetInCU: 0x41, offset: 0x41, size: 0x8, addend: 0x0, symName: _printArray, symObjAddr: 0x0, symBinAddr: 0x100003BDC, symSize: 0xE4 }
-  - { offsetInCU: 0xAB, offset: 0xAB, size: 0x8, addend: 0x0, symName: _insertionSort, symObjAddr: 0xE4, symBinAddr: 0x100003CC0, symSize: 0x184 }
-  - { offsetInCU: 0x13F, offset: 0x13F, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x268, symBinAddr: 0x100003E44, symSize: 0x130 }
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _printArray, symObjAddr: 0x0, symBinAddr: 0x100003B90, symSize: 0xE4 }
+  - { offsetInCU: 0x41, offset: 0x41, size: 0x8, addend: 0x0, symName: _printArray, symObjAddr: 0x0, symBinAddr: 0x100003B90, symSize: 0xE4 }
+  - { offsetInCU: 0xAB, offset: 0xAB, size: 0x8, addend: 0x0, symName: _insertionSort, symObjAddr: 0xE4, symBinAddr: 0x100003C74, symSize: 0x1A8 }
+  - { offsetInCU: 0x13F, offset: 0x13F, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x28C, symBinAddr: 0x100003E1C, symSize: 0x130 }
 ...

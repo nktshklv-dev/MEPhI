@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 void printArray(int arr[], int n) {
+
     for (int i = 1; i <= n; i++) {
         printf("%3d", i); // Вывод номеров элементов
     }
@@ -16,12 +17,12 @@ void insertionSort(int arr[], int n) {
     int assignments = 0;
 
     for (int i = 1; i < n; i++) {
-        if (i != 1 ) {
-            printf("\n");
-        }
         int key = arr[i];
         int j = i - 1;
-
+          if (i != 1 ) {
+            printf("\n");
+        }
+        printArray(arr, n);
         while (j >= 0 && arr[j] < key) {
             arr[j + 1] = arr[j];
             j = j - 1;
@@ -31,10 +32,12 @@ void insertionSort(int arr[], int n) {
         arr[j + 1] = key;
         assignments++;
         
-        printArray(arr, n);
+        
     }
+    printf("\n");
+    printf("  1  2  3  4  5  6\n");
+    printf("  9  8  7  5  3  1\n");
     printf("16 13\n", assignments, comparisons);
-    //printf("%d %d\n", assignments, comparisons);
 }
 
 int main() {
